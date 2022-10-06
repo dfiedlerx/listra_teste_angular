@@ -1,0 +1,17 @@
+<!-- modal.component.html -->
+<div class="modal-container">
+  <div class="modal-white-bg">
+    <div class='close-content'>
+      <span class="close" (click)="closeModal($event)">&times;</span>
+    </div>
+    <div class="modal-header">
+      <ng-content select="[modal-header]"></ng-content>
+    </div>
+    <div class="modal-body">
+      <ng-content select="[modal-body]"></ng-content>
+    </div>
+    <div class="modal-footer">
+      <ng-content select="[modal-footer]"></ng-content>
+    </div>
+  </div>
+</div>
