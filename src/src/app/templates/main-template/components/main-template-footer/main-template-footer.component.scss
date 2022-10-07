@@ -1,7 +1,7 @@
-.rodape-logo {
-    height: 50px;
+footer {
+  color: var(--main-footer-text-color);
+  background-color: var(--main-secondary-color);
+  padding: 43px 0 40px 0;
+  display: flex;
 }
 
-.footer-item {
-    text-align: center;
-}

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+.bold, h2, h3 {
+  font-weight: 600;
+}
+
+.no-bold {
+  font-weight: 300;
+}

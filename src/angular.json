@@ -1,5 +1,4 @@
 {
-  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "cli": {
     "analytics": "616005dc-71fe-4cf1-83ca-02389b8b5965"
   },
@@ -31,9 +30,12 @@
             "inlineStyleLanguage": "scss",
             "assets": ["src/favicon.ico", "src/assets", "src/assets/images"],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.css",
               "src/app/styles/styles.scss"
-            ],
-            "scripts": []
+          ],
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -97,13 +99,15 @@
             "inlineStyleLanguage": "scss",
             "assets": ["src/favicon.ico", "src/assets", "src/assets/images"],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.css",
               "src/app/styles/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.js"
+            ]
           }
         }
       }
     }
-  },
-  "defaultProject": "angular-projects-base-structutre"
+  }
 }

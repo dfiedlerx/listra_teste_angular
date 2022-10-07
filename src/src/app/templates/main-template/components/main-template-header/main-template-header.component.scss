@@ -1,3 +1,12 @@
-.top-area .user-img > img, .header-logo  {
-    max-height: 55px;
+
+
+header {
+  background-color: var(--main-color);
+  padding: 8px;
+  display: flex;
+  align-items: center;
+}
+
+header .logo {
+  height: 45px;
 }
