@@ -14,6 +14,7 @@ import { MainTemplateFooterSectionSocialIconComponent } from './main-template/co
 import { MainTemplateFooterSectionTalkWithUsComponent } from './main-template/components/main-template-footer/components/main-template-footer-section-talk-with-us/main-template-footer-section-talk-with-us.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { MainTemplateBodyPageItemComponent } from './main-template/components/main-template-body/components/main-template-body-page-item/main-template-body-page-item.component';
+import { MainTemplateLoadingComponent } from './main-template/components/main-template-loading/main-template-loading.component';
 
 
 
@@ -30,7 +31,8 @@ import { MainTemplateBodyPageItemComponent } from './main-template/components/ma
     MainTemplateFooterSectionWhatsIconComponent,
     MainTemplateFooterSectionSocialIconComponent,
     MainTemplateFooterSectionTalkWithUsComponent,
-    MainTemplateBodyPageItemComponent
+    MainTemplateBodyPageItemComponent,
+    MainTemplateLoadingComponent
   ],
   imports: [
     CommonModule,
