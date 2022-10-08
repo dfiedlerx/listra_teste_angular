@@ -1,6 +1,20 @@
 div {
   background-color: var(--main-color);
-  height: 25px;
-  width: 27px;
-  margin: 6px;
+  align-items: center;
+  border-radius: 4px;
+  display: flex;
+  height: 25.58px;
+  justify-content: center;
+  margin-left: 8px;
+  padding: 8px;
+  width: 25.58px;
+  font-size: 14px;
+  line-height: 30px;
+  cursor: pointer;
+  margin-top: 22px;
+  align-items: center;
+}
+
+div:hover {
+  background-color: var(--main-color-hover);
 }

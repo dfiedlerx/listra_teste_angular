@@ -3,3 +3,7 @@ a {
   text-decoration: none;
   font-size: var(--main-text-normal-size);
 }
+
+a:hover {
+  color: var(--main-color-hover);
+}

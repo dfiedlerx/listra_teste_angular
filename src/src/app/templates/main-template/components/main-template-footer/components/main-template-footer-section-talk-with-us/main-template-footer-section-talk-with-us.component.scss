@@ -1,0 +1,33 @@
+.whatsapp-icon-with-us {
+  background-color: var(--main-whatsapp-bg-color);
+  height: 25px;
+  width: 27px;
+  min-height: 42px;
+  min-width: 40px;
+  font-size: 18px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.whatsapp-icon-with-us:hover {
+  background-color: var(--main-whatsapp-bg-color-hover);
+}
+
+.item {
+  margin: .5rem;
+  align-self: center;
+  max-width: 130px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.phone-with-us {
+  background-color: var(--main-color);
+  font-size: 16px;
+  padding: 13px;
+}
+
+.phone-with-us:hover {
+  background-color: var(--main-color-hover);
+}

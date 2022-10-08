@@ -1,0 +1,12 @@
+div {
+  text-align: center;
+  padding: 31px 0 0 0;
+  font-size: 14px;
+  color: var(--main-color);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+div:hover {
+  color: var(--main-color-hover);
+}

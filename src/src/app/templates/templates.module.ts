@@ -12,6 +12,8 @@ import { MainTemplateFooterSectionPhoneComponent } from './main-template/compone
 import { MainTemplateFooterSectionWhatsIconComponent } from './main-template/components/main-template-footer/components/main-template-footer-section-whats-icon/main-template-footer-section-whats-icon.component';
 import { MainTemplateFooterSectionSocialIconComponent } from './main-template/components/main-template-footer/components/main-template-footer-section-social-icon/main-template-footer-section-social-icon.component';
 import { MainTemplateFooterSectionTalkWithUsComponent } from './main-template/components/main-template-footer/components/main-template-footer-section-talk-with-us/main-template-footer-section-talk-with-us.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { MainTemplateBodyPageItemComponent } from './main-template/components/main-template-body/components/main-template-body-page-item/main-template-body-page-item.component';
 
 
 
@@ -27,11 +29,13 @@ import { MainTemplateFooterSectionTalkWithUsComponent } from './main-template/co
     MainTemplateFooterSectionPhoneComponent,
     MainTemplateFooterSectionWhatsIconComponent,
     MainTemplateFooterSectionSocialIconComponent,
-    MainTemplateFooterSectionTalkWithUsComponent
+    MainTemplateFooterSectionTalkWithUsComponent,
+    MainTemplateBodyPageItemComponent
   ],
   imports: [
     CommonModule,
-    RouterModule,
+    FontAwesomeModule,
+    RouterModule
   ],
   exports: [
     MainTemplateComponent,

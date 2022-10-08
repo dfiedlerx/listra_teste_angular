@@ -1,0 +1,19 @@
+<div class="veiculo-card">
+  <app-shared-veiculo-item-image
+    [url]="veiculo.vco_veiculos_foto.url_medium"
+  ></app-shared-veiculo-item-image>
+  <app-shared-veiculo-item-localization
+    [localization]="veiculo.loja_cidade"
+  ></app-shared-veiculo-item-localization>
+  <div class="veiculo-data">
+    <app-shared-veiculo-item-model-description
+      [model]="veiculo.marca_titulo + ' ' + veiculo.modelo_titulo"
+      [version]="veiculo.int_versao"
+    ></app-shared-veiculo-item-model-description>
+    <app-shared-veiculo-item-model-infos [anoModeloFabricacao]="veiculo.int_anomodelofabricacao" [intQuilometragem]="veiculo.int_quilometragem" [vcoCambioTitulo]="veiculo.vco_cambio.titulo"></app-shared-veiculo-item-model-infos>
+    <div class="veiculo-price-favorite d-flex justify-content-between">
+      <app-shared-veiculo-item-price [price]="veiculo.int_preco_cliente"></app-shared-veiculo-item-price>
+      <app-shared-veiculo-item-favorite></app-shared-veiculo-item-favorite>
+    </div>
+  </div>
+</div>

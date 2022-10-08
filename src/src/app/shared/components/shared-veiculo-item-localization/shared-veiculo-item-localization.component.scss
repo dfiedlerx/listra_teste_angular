@@ -1,0 +1,17 @@
+div {
+  background-color: var(--main-white-color);
+  border-radius: 0px 16px 16px 0px;
+  font-size: 14px;
+  color: var(--main-title-color);
+  min-width: 1px;
+  position: relative;
+  top: - 75px;
+  width: fit-content;
+  padding: 5px 8px;
+  align-items: center;
+}
+
+.icon {
+  color: var(--main-color);
+  margin-right: 3px;
+}

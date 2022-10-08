@@ -1,1 +1,18 @@
-<p>home-index works!</p>
+<div class="row">
+  <app-shared-page-main-title
+    text="Veículos encontrados"
+  ></app-shared-page-main-title>
+  <div *ngIf="veiculosList">
+    <app-home-index-veiculos-count
+      [total]="veiculosList.total"
+    ></app-home-index-veiculos-count>
+    <div class="row mt-5 mb-5">
+      <app-shared-veiculo-item class="col-12 col-md-3" *ngFor="let veiculo of veiculosList.data; index as i;" [veiculo]="veiculo"></app-shared-veiculo-item>
+    </div>
+    <app-shared-itens-page-count
+      [totalSee]="veiculosList.to"
+      [total]="veiculosList.total"
+    ></app-shared-itens-page-count>
+    <app-shared-load-more></app-shared-load-more>
+  </div>
+</div>
