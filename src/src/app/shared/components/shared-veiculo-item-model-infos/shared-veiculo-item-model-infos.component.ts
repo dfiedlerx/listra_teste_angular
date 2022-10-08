@@ -12,7 +12,7 @@ import { faTachometerAlt, IconDefinition, faGears } from '@fortawesome/free-soli
 export class SharedVeiculoItemModelInfosComponent implements OnInit {
 
   @Input() anoModeloFabricacao! : number;
-  @Input() intQuilometragem! : number;
+  @Input() intQuilometragem! : number|string;
   @Input() vcoCambioTitulo! : string;
 
   faCalendar : IconDefinition = faCalendar;
@@ -23,6 +23,7 @@ export class SharedVeiculoItemModelInfosComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    this.intQuilometragem = parseInt(this.intQuilometragem.toString()).toLocaleString("en-us").replace(",", ".");
   }
 
 }
