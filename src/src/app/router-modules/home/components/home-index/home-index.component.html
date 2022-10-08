@@ -7,7 +7,14 @@
       [total]="veiculosList.total"
     ></app-home-index-veiculos-count>
     <div class="row mt-5 mb-5">
-      <app-shared-veiculo-item class="col-12 col-md-3" *ngFor="let veiculo of veiculosList.data; index as i;" [veiculo]="veiculo"></app-shared-veiculo-item>
+      <ng-container  *ngFor="let veiculo of veiculosList.data; index as i;" >
+        <div class="col-12 col-md-3">
+          <app-shared-veiculo-item [veiculo]="veiculo" class="col"></app-shared-veiculo-item>
+        </div>
+        <div *ngIf="(i + 1) % 6 == 0" class="col-12 col-md-3">
+          <app-shared-veiculo-item-marketing-banner></app-shared-veiculo-item-marketing-banner>
+        </div>
+      </ng-container>
     </div>
     <app-shared-itens-page-count
       [totalSee]="veiculosList.to"

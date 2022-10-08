@@ -11,6 +11,7 @@ import { SharedVeiculoItemModelInfosComponent } from './components/shared-veicul
 import { SharedVeiculoItemPriceComponent } from './components/shared-veiculo-item-price/shared-veiculo-item-price.component';
 import { SharedVeiculoItemFavoriteComponent } from './components/shared-veiculo-item-favorite/shared-veiculo-item-favorite.component';
 import { CommonModule } from '@angular/common';
+import { SharedVeiculoItemMarketingBannerComponent } from './components/shared-veiculo-item-marketing-banner/shared-veiculo-item-marketing-banner.component';
 
 /*
  Use this module only for shared and common components for entire application, for the
@@ -32,6 +33,7 @@ import { CommonModule } from '@angular/common';
     SharedVeiculoItemModelInfosComponent,
     SharedVeiculoItemPriceComponent,
     SharedVeiculoItemFavoriteComponent,
+    SharedVeiculoItemMarketingBannerComponent,
   ],
   imports: [
     CommonModule,
@@ -42,6 +44,7 @@ import { CommonModule } from '@angular/common';
     SharedLoadMoreComponent,
     SharedItensPageCountComponent,
     SharedVeiculoItemComponent,
+    SharedVeiculoItemMarketingBannerComponent,
   ]
 })
 export class SharedModule {}
